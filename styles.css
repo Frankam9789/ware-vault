@@ -93,11 +93,12 @@ p { margin: 0 0 1em; }
 .hero .lead { color: #c4d1df; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
 .hero-art svg { width: 100%; height: auto; }
-.art-wall { fill: rgba(255, 255, 255, 0.06); stroke: rgba(255, 255, 255, 0.15); stroke-width: 2; }
-.art-roof { fill: none; stroke: var(--amber); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
-.art-shelf rect { fill: rgba(255, 255, 255, 0.35); }
-.art-box rect { fill: #c9955a; stroke: #a8743f; stroke-width: 1.5; }
-.art-tape rect { fill: #e8c48f; }
+.art-glow { fill: rgba(255, 255, 255, 0.05); }
+.art-top { fill: #e0b37a; }
+.art-left { fill: #c9955a; }
+.art-right { fill: #b07d45; }
+.art-tape { fill: none; stroke: var(--amber); stroke-width: 18; stroke-linejoin: round; }
+.art-edge { fill: none; stroke: #8a5e2e; stroke-width: 2; stroke-linejoin: round; }
 
 /* Sections */
 .section { padding: clamp(3.5rem, 8vw, 6rem) 0; }
@@ -202,7 +203,7 @@ p { margin: 0 0 1em; }
 /* Responsive */
 @media (max-width: 860px) {
   .hero-inner, .why, .contact { grid-template-columns: 1fr; }
-  .hero-art { max-width: 420px; }
+  .hero-art { max-width: 320px; }
   .nav-toggle { display: block; }
   .nav-links {
     display: none;

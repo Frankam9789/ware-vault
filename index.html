@@ -162,7 +162,9 @@
             <li><span>Email</span><a href="mailto:kf.fulfilment@outlook.com">kf.fulfilment@outlook.com</a></li>
           </ul>
         </div>
-        <form class="contact-form" id="contact-form">
+        <form class="contact-form" id="contact-form" name="enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="enquiry">
+          <p class="hidden-field"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
           <label>Name
             <input type="text" name="name" required autocomplete="name">
           </label>

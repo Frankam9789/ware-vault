@@ -17,7 +17,7 @@ Then visit http://localhost:8000.
 ## Before going live
 
 - The contact email is set in `index.html` and `script.js`. A phone number can be added to the contact section later.
-- The quote form opens the visitor's email app. To collect submissions directly, point it at a form service (e.g. Formspree, Netlify Forms) instead.
+- The enquiry form is sent through Netlify Forms (see Forms in the Netlify dashboard). Opened anywhere else, it falls back to opening the visitor's email app.
 
 ## Deploy
 

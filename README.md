@@ -21,4 +21,6 @@ Then visit http://localhost:8000.
 
 ## Deploy
 
-Any static host works: GitHub Pages, Netlify, Vercel, Cloudflare Pages. For GitHub Pages, enable Pages in the repo settings and serve from the root of the main branch.
+The site is hosted on Netlify. `netlify.toml` tells Netlify there is no build step and to publish the repository root. With the repo linked to the Netlify project, every merge into the main branch (`claude/ware-vault-website-hwnflw`) publishes automatically.
+
+Any other static host works too: GitHub Pages, Vercel, Cloudflare Pages. For GitHub Pages, enable Pages in the repo settings and serve from the root of the main branch.

@@ -44,11 +44,50 @@
         </div>
         <div class="hero-art" aria-hidden="true">
           <svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <clipPath id="art-face"><rect width="120" height="130"/></clipPath>
+            </defs>
             <circle cx="200" cy="180" r="170" class="art-glow"/>
+            <path d="M66 258 L200 322 L334 258 L200 196 Z" class="art-shadow"/>
             <path d="M200 70 L320 125 L200 180 L80 125 Z" class="art-top"/>
             <path d="M80 125 L200 180 L200 310 L80 255 Z" class="art-left"/>
             <path d="M320 125 L200 180 L200 310 L320 255 Z" class="art-right"/>
-            <path d="M140 97 L260 152 L260 205" class="art-tape"/>
+
+            <!-- Top face: x runs back to right corner, y runs back to left corner -->
+            <g transform="matrix(1 0.4583 -1 0.4583 200 70)" clip-path="url(#art-face)">
+              <rect x="0" y="47" width="120" height="26" class="art-tape"/>
+              <text x="4" y="64" class="art-tape-text">WAREVAULT • WAREVAULT</text>
+            </g>
+
+            <!-- Right face: tape carries on down the side, sticker slapped on top -->
+            <g transform="matrix(1 -0.4583 0 1 200 180)">
+              <g clip-path="url(#art-face)">
+                <rect x="47" y="0" width="26" height="130" class="art-tape"/>
+                <text transform="translate(56 6) rotate(90)" class="art-tape-text">WAREVAULT • WAREVAULT</text>
+              </g>
+              <g transform="translate(94 88) rotate(8)">
+                <circle r="23" class="art-sticker"/>
+                <text y="-5" class="art-sticker-text">NO CATS</text>
+                <text y="5" class="art-sticker-text">INSIDE</text>
+                <text y="14" class="art-sticker-small">(we checked)</text>
+              </g>
+            </g>
+
+            <!-- Left face: printed logo, fragile label, this-way-up arrows -->
+            <g transform="matrix(1 0.4583 0 1 80 125)">
+              <g class="art-print">
+                <path d="M12 26 L24 18 L36 26 V42 H12 Z" class="art-print-line"/>
+                <rect x="20" y="31" width="8" height="11"/>
+                <text x="41" y="36" class="art-print-text">Ware<tspan font-weight="800">Vault</tspan></text>
+                <path d="M96 124 V110 M91 115 L96 110 L101 115 M108 124 V110 M103 115 L108 110 L113 115" class="art-print-line"/>
+              </g>
+              <g transform="translate(12 62) rotate(-5)">
+                <rect width="92" height="40" rx="3" class="art-fragile"/>
+                <text x="46" y="23" class="art-fragile-text">FRAGILE</text>
+                <text x="46" y="33" class="art-fragile-small">HANDLE WITH CARE</text>
+              </g>
+            </g>
+
             <path d="M200 70 L320 125 L200 180 L80 125 Z M80 125 L200 180 L200 310 L80 255 Z M320 125 L200 180 L200 310 L320 255 Z" class="art-edge"/>
           </svg>
         </div>

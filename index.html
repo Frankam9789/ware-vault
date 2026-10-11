@@ -45,50 +45,82 @@
         <div class="hero-art" aria-hidden="true">
           <svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg">
             <defs>
+              <linearGradient id="box-top" gradientUnits="userSpaceOnUse" x1="200" y1="70" x2="200" y2="180">
+                <stop offset="0" stop-color="#e3bf89"/>
+                <stop offset="1" stop-color="#d2a66b"/>
+              </linearGradient>
+              <linearGradient id="box-left" gradientUnits="userSpaceOnUse" x1="80" y1="140" x2="200" y2="300">
+                <stop offset="0" stop-color="#cd9f64"/>
+                <stop offset="1" stop-color="#b6874f"/>
+              </linearGradient>
+              <linearGradient id="box-right" gradientUnits="userSpaceOnUse" x1="200" y1="180" x2="320" y2="260">
+                <stop offset="0" stop-color="#a8773f"/>
+                <stop offset="1" stop-color="#8f6331"/>
+              </linearGradient>
+              <linearGradient id="tape-sheen" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+                <stop offset="0.45" stop-color="#fff" stop-opacity="0.22"/>
+                <stop offset="0.6" stop-color="#fff" stop-opacity="0"/>
+              </linearGradient>
+              <!-- Fine grain so the faces read as cardboard rather than flat colour -->
+              <filter id="cardboard" x="0" y="0" width="100%" height="100%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="4" result="noise"/>
+                <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.3  0 0 0 0 0.18  0 0 0 0 0.06  0 0 0 0.35 0" result="grain"/>
+                <feComposite in="grain" in2="SourceGraphic" operator="in" result="grainOnBox"/>
+                <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="grainOnBox"/></feMerge>
+              </filter>
+              <filter id="soft-shadow" x="-20%" y="-50%" width="140%" height="200%">
+                <feGaussianBlur stdDeviation="7"/>
+              </filter>
+              <filter id="label-shadow" x="-10%" y="-10%" width="130%" height="130%">
+                <feDropShadow dx="0.6" dy="1.2" stdDeviation="0.9" flood-color="#3a2410" flood-opacity="0.35"/>
+              </filter>
               <clipPath id="art-face"><rect width="120" height="130"/></clipPath>
             </defs>
             <circle cx="200" cy="180" r="170" class="art-glow"/>
-            <path d="M66 258 L200 322 L334 258 L200 196 Z" class="art-shadow"/>
-            <path d="M200 70 L320 125 L200 180 L80 125 Z" class="art-top"/>
-            <path d="M80 125 L200 180 L200 310 L80 255 Z" class="art-left"/>
-            <path d="M320 125 L200 180 L200 310 L320 255 Z" class="art-right"/>
+            <path d="M70 262 L200 324 L330 262 L200 200 Z" class="art-shadow" filter="url(#soft-shadow)"/>
+
+            <g filter="url(#cardboard)">
+              <path d="M200 70 L320 125 L200 180 L80 125 Z" fill="url(#box-top)"/>
+              <path d="M80 125 L200 180 L200 310 L80 255 Z" fill="url(#box-left)"/>
+              <path d="M320 125 L200 180 L200 310 L320 255 Z" fill="url(#box-right)"/>
+            </g>
 
             <!-- Top face: x runs back to right corner, y runs back to left corner -->
             <g transform="matrix(1 0.4583 -1 0.4583 200 70)" clip-path="url(#art-face)">
+              <rect width="120" height="60" class="art-flap"/>
               <rect x="0" y="47" width="120" height="26" class="art-tape"/>
-              <text x="4" y="64" class="art-tape-text">WAREVAULT • WAREVAULT</text>
+              <rect x="0" y="47" width="120" height="26" fill="url(#tape-sheen)"/>
+              <text x="4" y="63.5" class="art-tape-text">WAREVAULT · WAREVAULT</text>
             </g>
 
-            <!-- Right face: tape carries on down the side, sticker slapped on top -->
+            <!-- Right face: tape folds over the edge and stops partway down -->
             <g transform="matrix(1 -0.4583 0 1 200 180)">
-              <g clip-path="url(#art-face)">
-                <rect x="47" y="0" width="26" height="130" class="art-tape"/>
-                <text transform="translate(56 6) rotate(90)" class="art-tape-text">WAREVAULT • WAREVAULT</text>
-              </g>
-              <g transform="translate(94 88) rotate(8)">
-                <circle r="23" class="art-sticker"/>
-                <text y="-5" class="art-sticker-text">NO CATS</text>
-                <text y="5" class="art-sticker-text">INSIDE</text>
-                <text y="14" class="art-sticker-small">(we checked)</text>
+              <path d="M47 0 H73 V50 L70.5 47.5 L68 50.5 L65 47 L62.5 50 L60 47.5 L57 50.5 L54.5 47 L52 50 L49.5 47.5 L47 50 Z" class="art-tape"/>
+              <g transform="translate(94 92) rotate(7)" filter="url(#label-shadow)">
+                <circle r="25" class="art-sticker"/>
+                <circle r="22.5" class="art-sticker-ring"/>
+                <text y="-4" class="art-sticker-text">NO CATS</text>
+                <text y="6" class="art-sticker-text">INSIDE</text>
+                <text y="13.5" class="art-sticker-small">(we checked)</text>
               </g>
             </g>
 
-            <!-- Left face: printed logo, fragile label, this-way-up arrows -->
+            <!-- Left face: fragile label and printed this-way-up arrows -->
             <g transform="matrix(1 0.4583 0 1 80 125)">
-              <g class="art-print">
-                <path d="M12 26 L24 18 L36 26 V42 H12 Z" class="art-print-line"/>
-                <rect x="20" y="31" width="8" height="11"/>
-                <text x="41" y="36" class="art-print-text">Ware<tspan font-weight="800">Vault</tspan></text>
-                <path d="M96 124 V110 M91 115 L96 110 L101 115 M108 124 V110 M103 115 L108 110 L113 115" class="art-print-line"/>
-              </g>
-              <g transform="translate(12 62) rotate(-5)">
-                <rect width="92" height="40" rx="3" class="art-fragile"/>
-                <text x="46" y="23" class="art-fragile-text">FRAGILE</text>
-                <text x="46" y="33" class="art-fragile-small">HANDLE WITH CARE</text>
+              <path d="M94 122 V110 M89.5 114.5 L94 110 L98.5 114.5 M106 122 V110 M101.5 114.5 L106 110 L110.5 114.5" class="art-print"/>
+              <g transform="translate(10 38) rotate(-4)" filter="url(#label-shadow)">
+                <rect width="100" height="42" rx="2" class="art-fragile"/>
+                <rect x="3" y="3" width="94" height="36" rx="1" class="art-fragile-border"/>
+                <path d="M9 11 H19 C19 18 17 21 14 21.5 V30 M10.5 30.5 H17.5" class="art-fragile-glass"/>
+                <text x="60" y="25" class="art-fragile-text">FRAGILE</text>
+                <text x="60" y="33.5" class="art-fragile-small">HANDLE WITH CARE</text>
               </g>
             </g>
 
-            <path d="M200 70 L320 125 L200 180 L80 125 Z M80 125 L200 180 L200 310 L80 255 Z M320 125 L200 180 L200 310 L320 255 Z" class="art-edge"/>
+            <!-- Light catching the top edges, a darker crease down the front corner -->
+            <path d="M80 125 L200 180 L320 125" class="art-highlight"/>
+            <path d="M200 181 V310" class="art-corner"/>
           </svg>
         </div>
       </div>

@@ -96,14 +96,12 @@ p { margin: 0 0 1em; }
 .art-glow { fill: rgba(255, 255, 255, 0.05); }
 .art-shadow { fill: rgba(0, 0, 0, 0.45); }
 .art-flap { fill: rgba(60, 35, 10, 0.06); }
-.art-tape { fill: #b08a50; opacity: 0.92; }
-.art-tape-text { font-size: 10px; font-weight: 700; letter-spacing: 2px; fill: rgba(58, 36, 14, 0.75); }
+.art-tape { fill: #8A6D2E; opacity: 0.94; }
+.art-tape-text { font-size: 11px; font-weight: 800; letter-spacing: 1.5px; fill: #E9D3A0; }
 .art-print { fill: none; stroke: rgba(70, 42, 16, 0.55); stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
-.art-fragile { fill: #fbfaf6; }
-.art-fragile-border { fill: none; stroke: #c62828; stroke-width: 1.4; }
-.art-fragile-glass { fill: none; stroke: #c62828; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
-.art-fragile-text { font-size: 14px; font-weight: 800; letter-spacing: 1px; fill: #c62828; text-anchor: middle; }
-.art-fragile-small { font-size: 5.5px; font-weight: 700; letter-spacing: 0.6px; fill: #c62828; text-anchor: middle; }
+.art-fragile { fill: #fbfaf6; stroke: #C0392B; stroke-width: 2.5; }
+.art-fragile-text { font-size: 19px; font-weight: 800; letter-spacing: 1px; fill: #C0392B; text-anchor: middle; }
+.art-fragile-small { font-size: 6.5px; font-weight: 700; letter-spacing: 0.5px; fill: #C0392B; text-anchor: middle; }
 .art-sticker { fill: #fbfaf6; }
 .art-sticker-ring { fill: none; stroke: var(--navy); stroke-width: 0.8; }
 .art-sticker-text { font-size: 7.5px; font-weight: 800; fill: var(--navy); text-anchor: middle; }

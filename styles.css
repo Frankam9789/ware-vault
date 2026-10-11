@@ -97,7 +97,18 @@ p { margin: 0 0 1em; }
 .art-top { fill: #e0b37a; }
 .art-left { fill: #c9955a; }
 .art-right { fill: #b07d45; }
-.art-tape { fill: none; stroke: #8A6D2E; stroke-width: 18; stroke-linejoin: round; }
+.art-shadow { fill: rgba(0, 0, 0, 0.18); }
+.art-tape { fill: #8A6D2E; }
+.art-tape-text { font-size: 11px; font-weight: 800; letter-spacing: 1.5px; fill: #E9D3A0; }
+.art-print { fill: #6B4A22; opacity: 0.85; }
+.art-print-line { fill: none; stroke: #6B4A22; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+.art-print-text { font-size: 13.5px; font-weight: 500; }
+.art-fragile { fill: #fff; stroke: #C0392B; stroke-width: 2.5; }
+.art-fragile-text { font-size: 19px; font-weight: 800; letter-spacing: 1px; fill: #C0392B; text-anchor: middle; }
+.art-fragile-small { font-size: 6.5px; font-weight: 700; letter-spacing: 0.5px; fill: #C0392B; text-anchor: middle; }
+.art-sticker { fill: #F5F3EC; stroke: var(--amber); stroke-width: 3; }
+.art-sticker-text { font-size: 8.5px; font-weight: 800; fill: var(--navy); text-anchor: middle; }
+.art-sticker-small { font-size: 5.5px; font-style: italic; fill: var(--navy); text-anchor: middle; }
 .art-edge { fill: none; stroke: #8a5e2e; stroke-width: 2; stroke-linejoin: round; }
 
 /* Sections */

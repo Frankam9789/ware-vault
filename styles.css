@@ -76,7 +76,8 @@ p { margin: 0 0 1em; }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
 .logo { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
 .logo-mark { height: 46px; width: auto; }
-.wordmark { font-family: 'Cinzel', serif; font-weight: 700; font-size: 1.35rem; letter-spacing: 0.14em; color: var(--amber); }
+.wordmark { font-family: 'Cinzel', serif; font-weight: 700; font-size: 1.35rem; letter-spacing: 0.14em; color: #fff; }
+.wordmark span { color: var(--amber); }
 .logo.small .logo-mark { height: 34px; }
 .logo.small .wordmark { font-size: 1.05rem; }
 .nav-links { display: flex; align-items: center; gap: 1.75rem; }

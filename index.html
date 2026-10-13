@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <header class="site-header">
@@ -83,7 +84,11 @@
               <clipPath id="art-face"><rect width="120" height="130"/></clipPath>
             </defs>
             <circle cx="200" cy="180" r="170" class="art-glow"/>
-            <path d="M70 262 L200 324 L330 262 L200 200 Z" class="art-shadow" filter="url(#soft-shadow)"/>
+            <g class="art-shadow-pulse">
+              <path d="M70 262 L200 324 L330 262 L200 200 Z" class="art-shadow" filter="url(#soft-shadow)"/>
+            </g>
+
+            <g class="art-float">
 
             <g filter="url(#cardboard)">
               <path d="M200 70 L320 125 L200 180 L80 125 Z" fill="url(#box-top)"/>
@@ -128,6 +133,7 @@
             <!-- Light catching the top edges, a darker crease down the front corner -->
             <path d="M80 125 L200 180 L320 125" class="art-highlight"/>
             <path d="M200 181 V310" class="art-corner"/>
+            </g>
           </svg>
         </div>
       </div>
@@ -152,7 +158,7 @@
             <h3>Receiving &amp; inventory</h3>
             <p>We check in your deliveries and keep track of your stock, so you know what you have on hand.</p>
           </article>
-          <article class="card">
+          <article class="card card-featured">
             <div class="icon">
               <svg viewBox="0 0 24 24"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11"/></svg>
             </div>

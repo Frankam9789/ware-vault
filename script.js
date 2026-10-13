@@ -1,3 +1,32 @@
+// Fade sections up as they scroll into view. The 'js' class is set in the page head,
+// so without JavaScript nothing is hidden.
+const revealGroups = ['.section h2', '.section .eyebrow', '.section .lead', '.cards', '.steps', '.checklist', '.contact-form'];
+const revealItems = [];
+revealGroups.forEach((sel) =>
+  document.querySelectorAll(sel).forEach((el) => {
+    // Lists reveal item by item, everything else as one block
+    const items = el.matches('.cards, .steps, .checklist') ? [...el.children] : [el];
+    items.forEach((item, i) => {
+      item.classList.add('reveal');
+      item.style.setProperty('--delay', `${i * 0.08}s`);
+      revealItems.push(item);
+    });
+  })
+);
+if ('IntersectionObserver' in window) {
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealItems.forEach((el) => io.observe(el));
+} else {
+  revealItems.forEach((el) => el.classList.add('visible'));
+}
+
 // Mobile menu
 const toggle = document.querySelector('.nav-toggle');
 const links = document.getElementById('nav-links');

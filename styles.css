@@ -169,13 +169,6 @@ p { margin: 0 0 1em; }
 .card:hover .icon { background: var(--navy); }
 .card:hover .icon svg { stroke: var(--amber); }
 
-/* One card picked out in the brand green */
-.card-featured { background: var(--navy); border-color: var(--navy); color: #fff; }
-.card-featured p { color: #C9D6CE; }
-.card-featured .icon { background: rgba(200, 164, 92, 0.16); }
-.card-featured .icon svg { stroke: var(--amber); }
-.card-featured:hover .icon { background: var(--amber); }
-.card-featured:hover .icon svg { stroke: var(--navy); }
 
 /* Steps */
 .steps {
@@ -286,6 +279,27 @@ p { margin: 0 0 1em; }
 
 .hero .eyebrow, .section-dark .eyebrow { color: var(--amber); }
 .hidden-field { position: absolute; left: -9999px; }
+
+/* Faint gold dot pattern behind the service cards */
+#services { background-color: var(--bg); background-image: radial-gradient(rgba(200, 164, 92, 0.22) 1.2px, transparent 1.2px); background-size: 22px 22px; }
+
+/* Round gold-ringed icon badges, echoing the logo */
+.icon { border-radius: 50%; background: linear-gradient(145deg, #FBF3DF, #EFDDB3); box-shadow: inset 0 0 0 2px var(--amber), 0 4px 10px rgba(138, 109, 46, 0.18); }
+.icon svg { stroke: var(--navy); }
+.card:hover .icon { background: var(--navy); box-shadow: inset 0 0 0 2px var(--amber); }
+
+.section-head { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem 3rem; align-items: end; }
+.section-head h2 { margin-bottom: 0; }
+.section-intro { color: var(--muted); font-size: 1.05rem; margin: 0; padding-left: 1.25rem; border-left: 3px solid var(--amber); }
+@media (max-width: 860px) { .section-head { grid-template-columns: 1fr; } }
+
+/* All cards start white and turn brand green under the cursor */
+.card { transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s, background-color 0.25s, color 0.25s; }
+.card p { transition: color 0.25s; }
+.card:hover { background: var(--navy); border-color: var(--navy); color: #fff; }
+.card:hover p { color: #C9D6CE; }
+.card:hover .icon { background: var(--amber); box-shadow: inset 0 0 0 2px var(--amber); }
+.card:hover .icon svg { stroke: var(--navy); }
 
 /* Motion: hero box floats, sections fade up as they scroll into view */
 .art-float { animation: art-float 5s ease-in-out infinite; }

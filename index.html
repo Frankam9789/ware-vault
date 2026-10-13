@@ -33,15 +33,18 @@
 
   <main id="top">
     <section class="hero">
+      <svg class="hero-curve" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 80 V40 C360 0 1080 0 1440 40 V80 Z"/></svg>
+      <svg class="hero-skyline" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true"><path d="M0 160 V110 L60 80 L120 110 V160 Z M110 160 V95 L190 55 L270 95 V160 Z M260 160 V120 H330 V160 Z M320 160 V100 L380 70 L440 100 V160 Z M430 160 V80 L520 40 L610 80 V160 Z M600 160 V115 L650 92 L700 115 V160 Z M690 160 V90 L770 52 L850 90 V160 Z M840 160 V118 H920 V160 Z M910 160 V96 L975 64 L1040 96 V160 Z M1030 160 V78 L1120 36 L1210 78 V160 Z M1200 160 V110 L1260 82 L1320 110 V160 Z M1310 160 V92 L1380 58 L1450 92 V160 Z"/></svg>
       <div class="container hero-inner">
         <div class="hero-copy">
           <p class="eyebrow">Storage &amp; fulfilment</p>
-          <h1>Your stock, stored safe. Your orders, shipped with care.</h1>
+          <h1>Your stock, <span class="hl">stored safe.</span> Your orders, <span class="hl">shipped with care.</span></h1>
           <p class="lead">Ware Vault looks after the storage and shipping side of your business so you can focus on making and selling. We store your stock, pack your orders with care and get them out to your customers.</p>
           <div class="hero-actions">
             <a href="#contact" class="btn">Get in touch</a>
             <a href="#how" class="btn btn-ghost">See how it works</a>
           </div>
+          <ul class="hero-points"><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"/><path d="M4 8l8 4 8-4M12 12v8"/></svg>Packed by hand</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 6h13v10H1z"/><path d="M14 9h4l4 4v3h-8z"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg>Tracked delivery</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>Personal service</li></ul>
         </div>
         <div class="hero-art" aria-hidden="true">
           <svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +86,8 @@
               </filter>
               <clipPath id="art-face"><rect width="120" height="130"/></clipPath>
             </defs>
-            <circle cx="200" cy="180" r="170" class="art-glow"/>
+            <radialGradient id="gold-glow"><stop offset="0" stop-color="#C8A45C" stop-opacity="0.45"/><stop offset="0.55" stop-color="#C8A45C" stop-opacity="0.12"/><stop offset="1" stop-color="#C8A45C" stop-opacity="0"/></radialGradient>
+            <circle cx="200" cy="185" r="190" fill="url(#gold-glow)"/>
             <g class="art-shadow-pulse">
               <path d="M70 262 L200 324 L330 262 L200 200 Z" class="art-shadow" filter="url(#soft-shadow)"/>
             </g>

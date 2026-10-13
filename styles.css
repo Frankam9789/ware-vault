@@ -95,6 +95,17 @@ p { margin: 0 0 1em; }
 .hero .lead { color: #C9D6CE; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
 .hero-art svg { width: 100%; height: auto; }
+.hero h1 .hl { color: var(--amber); }
+
+.hero-points { list-style: none; padding: 0; margin: 2rem 0 0; display: flex; flex-wrap: wrap; gap: 0.75rem 1.75rem; color: #C9D6CE; font-size: 0.95rem; font-weight: 500; }
+.hero-points li { display: flex; align-items: center; gap: 0.5rem; }
+.hero-points svg { width: 20px; height: 20px; fill: none; stroke: var(--amber); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+.hero { position: relative; overflow: hidden; }
+.hero-inner { position: relative; z-index: 1; }
+.hero-skyline { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 140px; fill: rgba(200, 164, 92, 0.07); }
+.hero-curve { position: absolute; left: 0; right: 0; bottom: -1px; width: 100%; height: 70px; fill: var(--bg); z-index: 1; }
+.hero { padding-bottom: calc(clamp(3rem, 8vw, 6rem) + 40px); }
 .art-glow { fill: rgba(255, 255, 255, 0.05); }
 .art-shadow { fill: rgba(0, 0, 0, 0.45); }
 .art-flap { fill: rgba(60, 35, 10, 0.06); }

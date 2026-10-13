@@ -171,15 +171,16 @@ p { margin: 0 0 1em; }
 .card:hover .icon svg { stroke: var(--amber); }
 
 
-/* Five services: three across, then two wider cards, so the grid has no gap */
+/* Five services: every card the same size, with the shorter last row centred */
 @media (min-width: 1000px) {
   .cards { grid-template-columns: repeat(6, 1fr); }
   .card { grid-column: span 2; }
-  .card:nth-child(n+4) { grid-column: span 3; }
+  .card:nth-child(4) { grid-column: 2 / span 2; }
 }
 @media (min-width: 700px) and (max-width: 999px) {
-  .cards { grid-template-columns: 1fr 1fr; }
-  .card:last-child { grid-column: span 2; }
+  .cards { grid-template-columns: repeat(4, 1fr); }
+  .card { grid-column: span 2; }
+  .card:last-child { grid-column: 2 / span 2; }
 }
 
 /* Steps */

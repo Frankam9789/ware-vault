@@ -74,9 +74,11 @@ p { margin: 0 0 1em; }
   color: #fff;
 }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-.logo { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; font-size: 1.25rem; font-weight: 500; }
-.logo strong { color: var(--amber); font-weight: 800; }
-.logo.small { font-size: 1rem; }
+.logo { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
+.logo-mark { height: 46px; width: auto; }
+.wordmark { font-family: 'Cinzel', serif; font-weight: 700; font-size: 1.35rem; letter-spacing: 0.14em; color: var(--amber); }
+.logo.small .logo-mark { height: 34px; }
+.logo.small .wordmark { font-size: 1.05rem; }
 .nav-links { display: flex; align-items: center; gap: 1.75rem; }
 .nav-links a { text-decoration: none; font-weight: 500; }
 .nav-links a:not(.btn):hover { color: var(--amber); }

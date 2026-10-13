@@ -177,6 +177,7 @@ p { margin: 0 0 1em; }
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
+.steps { --num: 48px; }
 .steps li { position: relative; background: #fff; border-radius: var(--radius); padding: 1.75rem; box-shadow: var(--shadow); }
 .steps p { color: var(--muted); margin: 0; }
 .step-num {
@@ -300,6 +301,48 @@ p { margin: 0 0 1em; }
 .card:hover p { color: #C9D6CE; }
 .card:hover .icon { background: var(--amber); box-shadow: inset 0 0 0 2px var(--amber); }
 .card:hover .icon svg { stroke: var(--navy); }
+
+.step-num { width: var(--num, 40px); height: var(--num, 40px); position: relative; z-index: 2; }
+
+.step-num svg { width: 22px; height: 22px; fill: none; stroke: var(--amber); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.step-label { display: block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber-dark); margin-bottom: 0.25rem; }
+
+.step-num {
+  --num: 48px;
+  background: linear-gradient(145deg, #F6DE9E, #C8A45C 55%, #8A6424);
+  color: var(--navy); font-size: 1.15rem;
+  box-shadow: 0 4px 10px rgba(138, 109, 46, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.step-num svg { stroke: var(--navy); }
+
+/* A dashed delivery route runs through the step badges and ends at a map pin */
+@media (min-width: 961px) {
+  .steps { position: relative; }
+  .steps li:not(:last-child)::after { display: none; }
+  .steps::before {
+    content: ''; position: absolute; z-index: 1;
+    left: calc(1.75rem + 20px); right: 3rem;
+    top: calc(1.75rem + var(--num, 40px) / 2 - 1.5px);
+    border-top: 3px dashed var(--amber);
+  }
+  .steps::after {
+    content: ''; position: absolute; z-index: 2;
+    right: 1.4rem; top: calc(1.75rem + var(--num, 40px) / 2 - 30px);
+    width: 24px; height: 32px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 32'%3E%3Cpath d='M12 31 C6 21 2 17 2 11 a10 10 0 0 1 20 0 c0 6-4 10-10 20z' fill='%23C8A45C'/%3E%3Ccircle cx='12' cy='11' r='4' fill='%231E3A2F'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
+}
+
+/* How it works on the brand green, so the page alternates light and dark */
+#how { background: linear-gradient(160deg, var(--navy) 0%, var(--navy-2) 100%); color: #fff; }
+#how h2 { color: #fff; }
+#how .eyebrow { color: var(--amber); }
+#how .steps li { color: var(--ink); box-shadow: 0 14px 34px rgba(0, 0, 0, 0.25); }
+#how .steps li:not(:last-child)::after { box-shadow: 0 0 0 4px var(--navy); }
+#how .steps-cta span { color: #C9D6CE; }
+
+.steps-cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.75rem 1.25rem; margin-top: 2.5rem; text-align: center; }
+.steps-cta span { color: var(--muted); }
 
 /* Motion: hero box floats, sections fade up as they scroll into view */
 .art-float { animation: art-float 5s ease-in-out infinite; }

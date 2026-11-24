@@ -15,15 +15,24 @@ Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Univer
 | 2026-11-23 | The Stirling Candle Company | thestirlingcandlecompany.co.uk | Hand-poured rapeseed/coconut wax candles (Stirling) |
 | 2026-11-23 | Skyn Bakery | skynbakery.com | Artisan handmade soap bars and gift sets |
 | 2026-11-23 | Bubble & Bathe | bubbleandbathe.co.uk | Bath salts, bath bombs, wax melts (North Devon) |
+| 2026-11-24 | SimpleyNatural | simpleynatural.co.uk | Handmade bath bombs, salts, soaps (Sherwood Forest, Mansfield) |
+| 2026-11-24 | TheStuffedHound | thestuffedhound.com | Natural dog treats (small family business) |
+| 2026-11-24 | Oceanjewel | oceanjewel.co.uk | Waterproof stainless steel jewellery |
+| 2026-11-24 | Oops a Daisy | (search "Oops a Daisy stencils") | Journaling stencils, stickers, washi tape |
+| 2026-11-24 | Pink Moon | thepinkmoonshop.com | Small-batch candles and home fragrance |
 
 ## Seen but not suggested yet (possible future picks)
 
-- SimpleyNatural (simpleynatural.co.uk), handmade bath and body, Sherwood Forest, ~187 Trustpilot reviews
 - Silk + Strand (NOTHS storefront), silk scrunchies, Derbyshire, few reviews so far
-- Pink Moon (thepinkmoonshop.com), small-batch candles, ~46 reviews
+- Fin Studio (studiofin.co.uk), handcrafted notebooks/planners, Hertfordshire home studio, almost no public reviews yet
+- Clevedon-style candle makers on NOTHS: Embers and Roots, Wick and Wonder (not checked)
 
 ## Skipped (and why)
 
 - Devon Wick Candle Co: 6,000+ reviews, too big
 - Wick Guru: partly made in a candle factory
 - Lily Flo, Astrid & Rose, Deelyn Design: mostly made to order
+- CanineCraftsUK, Hayward & Hounds: personalised / made to order
+- For Paws Truly, The Dog Treat Company: too few reviews
+- paperwrld.com: couldn't confirm it's UK-based (curated range, likely imported)
+- Indigo Lune, Katie Loxton: too big

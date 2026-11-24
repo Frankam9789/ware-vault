@@ -20,11 +20,18 @@ Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Univer
 | 2026-11-24 | Oceanjewel | oceanjewel.co.uk | Waterproof stainless steel jewellery |
 | 2026-11-24 | Oops a Daisy | (search "Oops a Daisy stencils") | Journaling stencils, stickers, washi tape |
 | 2026-11-24 | Pink Moon | thepinkmoonshop.com | Small-batch candles and home fragrance |
+| 2026-11-24 (9am run) | Valley Mist | valleymist.co.uk | Natural, plastic-free skincare (Charnock Farm, Leyland, Lancashire) |
+| 2026-11-24 (9am run) | BowCo Hair Accessories | bowco.co.uk | Hair bows and clips |
+| 2026-11-24 (9am run) | Memory Essence Wax Melts | memoryessence.co.uk | Hand-poured soy wax melts (Cranbrook, Exeter) |
+| 2026-11-24 (9am run) | Puddle of Wax | puddleofwax.com | Wax melts, 200+ scents (Northampton) |
+| 2026-11-24 (9am run) | Tegen Accessories | tegenaccessories.co.uk | Claw clips and luxury hair accessories |
 
 ## Seen but not suggested yet (possible future picks)
 
 - Silk + Strand (NOTHS storefront), silk scrunchies, Derbyshire, few reviews so far
 - Fin Studio (studiofin.co.uk), handcrafted notebooks/planners, Hertfordshire home studio, almost no public reviews yet
+- Beauty Scents Candles (beautyscentscandles.co.uk), handmade candles/melts, Peterborough, ~198 reviews
+- The Ilex Wood (NOTHS), natural balms and serums, review count unknown
 - Clevedon-style candle makers on NOTHS: Embers and Roots, Wick and Wonder (not checked)
 
 ## Skipped (and why)
@@ -36,3 +43,6 @@ Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Univer
 - For Paws Truly, The Dog Treat Company: too few reviews
 - paperwrld.com: couldn't confirm it's UK-based (curated range, likely imported)
 - Indigo Lune, Katie Loxton: too big
+- Bowtastic: ~1,300 reviews, very low prices (10 bows for £10)
+- Hampshire Wick, Mollysmelts, Scenteddelightsuk and other melt shops with under 20 reviews: too small
+- Kutis Skincare: mainly wholesale

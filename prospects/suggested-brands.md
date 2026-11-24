@@ -2,6 +2,8 @@
 
 Running list used by the daily prospect finder. Never suggest any brand below again.
 
+**Range rule (from 24 Nov):** only brands with a small, focused range: about 30 products or fewer, counting scent/colour variants. Jewellery: about 15-20 pieces or fewer, and only when confirmed.
+
 ## Already researched or contacted (before the daily list started)
 
 Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Universey Candle Store, Wicklore, WickHarmony, Beanie Socks, Lenore Beauty, U UNIQUE, The Happy Doodle Company, Ease-E Melts, VerbaHMStore, Octō & Co, DEFREI, SOAKED Umbrellas, Glass & Wick, Tulip Jewellery, Wire & Wood Jewellery, Sheffield Skincare Company, The Soy Wax Candle Company, GoodNatured Skincare, Butler & Grace, Sussex Candles
@@ -17,13 +19,13 @@ Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Univer
 | 2026-11-23 | Bubble & Bathe | bubbleandbathe.co.uk | Bath salts, bath bombs, wax melts (North Devon) |
 | 2026-11-24 | SimpleyNatural | simpleynatural.co.uk | Handmade bath bombs, salts, soaps (Sherwood Forest, Mansfield) |
 | 2026-11-24 | TheStuffedHound | thestuffedhound.com | Natural dog treats (small family business) |
-| 2026-11-24 | Oceanjewel | oceanjewel.co.uk | Waterproof stainless steel jewellery |
+| 2026-11-24 | Oceanjewel | oceanjewel.co.uk | Waterproof stainless steel jewellery. ⚠ Range unverified, likely too big under new rule |
 | 2026-11-24 | Oops a Daisy | (search "Oops a Daisy stencils") | Journaling stencils, stickers, washi tape |
 | 2026-11-24 | Pink Moon | thepinkmoonshop.com | Small-batch candles and home fragrance |
 | 2026-11-24 (9am run) | Valley Mist | valleymist.co.uk | Natural, plastic-free skincare (Charnock Farm, Leyland, Lancashire) |
-| 2026-11-24 (9am run) | BowCo Hair Accessories | bowco.co.uk | Hair bows and clips |
+| 2026-11-24 (9am run) | BowCo Hair Accessories | bowco.co.uk | Hair bows and clips. ⚠ Range unverified, bow shops often carry many colours |
 | 2026-11-24 (9am run) | Memory Essence Wax Melts | memoryessence.co.uk | Hand-poured soy wax melts (Cranbrook, Exeter) |
-| 2026-11-24 (9am run) | Puddle of Wax | puddleofwax.com | Wax melts, 200+ scents (Northampton) |
+| 2026-11-24 (9am run) | Puddle of Wax | puddleofwax.com | Wax melts, 200+ scents (Northampton). ⚠ Range too big under new rule |
 | 2026-11-24 (9am run) | Tegen Accessories | tegenaccessories.co.uk | Claw clips and luxury hair accessories |
 
 ## Seen but not suggested yet (possible future picks)

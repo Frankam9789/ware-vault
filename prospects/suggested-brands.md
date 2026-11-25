@@ -27,6 +27,11 @@ Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Univer
 | 2026-11-24 (9am run) | Memory Essence Wax Melts | memoryessence.co.uk | Hand-poured soy wax melts (Cranbrook, Exeter) |
 | 2026-11-24 (9am run) | Puddle of Wax | puddleofwax.com | Wax melts, 200+ scents (Northampton). ⚠ Range too big under new rule |
 | 2026-11-24 (9am run) | Tegen Accessories | tegenaccessories.co.uk | Claw clips and luxury hair accessories |
+| 2026-11-25 | My Skin Feels | myskinfeels.com | Fermented food-waste skincare, 2 products (Brighton) |
+| 2026-11-25 | Ralph & Albert | ralphandalbert.com | Handmade dog paw balm and care (Yorkshire), small range (unconfirmed) |
+| 2026-11-25 | Grizzly Adam | grizzlyadam.co.uk | Beard oils and grooming (Cheshire, family-run), range unconfirmed |
+| 2026-11-25 | Bearded Bear Co | beardedbearco.com | Beard oils, balms, butters, wash (UK), est. 15-30 SKUs |
+| 2026-11-25 | Ease London | easelondon.co.uk | Wooden-wick eco candles, founder-run, range unconfirmed |
 
 ## Seen but not suggested yet (possible future picks)
 
@@ -48,3 +53,9 @@ Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Univer
 - Bowtastic: ~1,300 reviews, very low prices (10 bows for £10)
 - Hampshire Wick, Mollysmelts, Scenteddelightsuk and other melt shops with under 20 reviews: too small
 - Kutis Skincare: mainly wholesale
+- Herbal Dog Co: ~£1m sales, big TikTok brand, too big
+- Teddy Knows Best: wide range (collars, harnesses, clothing, carriers), too many SKUs
+- Flowery Whiff: broad range (balms, deodorants, perfumes, oils, serums)
+- Sweet Cecily's: 3,000+ reviews, too big; also personalised kits
+- WildWash: 250+ reviews, big range and supermarket stockists
+- Lux Umbra, Marchwood, Norshire, Destination Dog, On Tha Moor: under 20 reviews

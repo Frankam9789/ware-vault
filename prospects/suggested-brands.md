@@ -8,6 +8,12 @@ Running list used by the daily prospect finder. Never suggest any brand below ag
 
 Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Universey Candle Store, Wicklore, WickHarmony, Beanie Socks, Lenore Beauty, U UNIQUE, The Happy Doodle Company, Ease-E Melts, VerbaHMStore, Octō & Co, DEFREI, SOAKED Umbrellas, Glass & Wick, Tulip Jewellery, Wire & Wood Jewellery, Sheffield Skincare Company, The Soy Wax Candle Company, GoodNatured Skincare, Butler & Grace, Sussex Candles
 
+**Still-trading rule (from 25 Nov):** every brand must pass a closure search (closed / ceased trading / liquidation / dissolved / closing-down sale) and show a dated sign of life from roughly the last 3 months. Each suggestion records its last sign of life.
+
+## Closed / not trading (never suggest)
+
+_(add brands here as they're found closed)_
+
 ## Suggested by the daily finder
 
 | Date | Brand | Website | Sells |

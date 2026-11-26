@@ -12,7 +12,14 @@ Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Univer
 
 ## Closed / not trading (never suggest)
 
-_(add brands here as they're found closed)_
+- Clevedon Candle Company: CLEVEDON CANDLE COMPANY LTD (13607491), dissolved 10 Feb 2026
+- The Stirling Candle Company: THE STIRLING CANDLE COMPANY LTD (SC759960), dissolved 17 Nov 2026
+- Skyn Bakery: SKYN BAKERY LTD (13050235), dissolved 25 Aug 2026
+- Grizzly Adam: GRIZZLY ADAM LTD (12671670), dissolved 14 May 2024
+- Tegen Accessories (probably): TEGEN ACCESSORIES LTD (08086981, Blackpool), dissolved 2019; may now trade as a sole trader
+
+Companies House re-check of earlier picks (26 Nov), Active and the name/town match: SimpleyNatural (07583908), My Skin Feels (12351006), Ralph & Albert (14974787), Ease London (11533231), Worthy Wax (13108347), Kip Candle Co (13874711), Oceanjewel (14208322), BowCo (15297650, Liverpool).
+Unclear (no confident match): Classic Candle Company (Active company is in Leighton Buzzard, brand says Suffolk), Bubble & Bathe (Active company is in Kent, brand says North Devon), Valley Mist, Oops a Daisy, Pink Moon, Memory Essence, Puddle of Wax, TheStuffedHound, Bearded Bear Co, Elstree Soaps, FuturePrimitive (possibly sole traders).
 
 ## Suggested by the daily finder
 

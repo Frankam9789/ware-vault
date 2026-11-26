@@ -38,6 +38,10 @@ _(add brands here as they're found closed)_
 | 2026-11-25 | Grizzly Adam | grizzlyadam.co.uk | Beard oils and grooming (Cheshire, family-run), range unconfirmed |
 | 2026-11-25 | Bearded Bear Co | beardedbearco.com | Beard oils, balms, butters, wash (UK), est. 15-30 SKUs |
 | 2026-11-25 | Ease London | easelondon.co.uk | Wooden-wick eco candles, founder-run, range unconfirmed |
+| 2026-11-26 | Worthy Wax | worthywax.co.uk | Candles + wax melts, 12 signature scents (Newcastle). Last sign of life: workshop listed for 14 Dec 2026 |
+| 2026-11-26 | Elstree Soaps | elstreesoaps.com | Vegan, palm-oil-free handmade soap (Hertfordshire). Last sign of life: Christmas markets 20-29 Nov 2026 |
+| 2026-11-26 (near-miss) | Kip Candle Co | kipcandleco.com | Capsule-range soy candles (Liverpool). Newest dated proof Mar 2026 |
+| 2026-11-26 (near-miss) | FuturePrimitive Soap Co | futureprimitivesoap.co.uk | Handmade soap, themed releases. Yule release 22 Nov (year unconfirmed) |
 
 ## Seen but not suggested yet (possible future picks)
 
@@ -65,3 +69,8 @@ _(add brands here as they're found closed)_
 - Sweet Cecily's: 3,000+ reviews, too big; also personalised kits
 - WildWash: 250+ reviews, big range and supermarket stockists
 - Lux Umbra, Marchwood, Norshire, Destination Dog, On Tha Moor: under 20 reviews
+- Hampton & Astley: ~2,900 reviews and sells bedding too, too big
+- Tiny Stories Candle Co (Manchester): mostly personalised occasion candles
+- Soap So Co: appears to be Canadian-made
+- RinkyDink Candles: only 4 Trustpilot reviews, newest dated Feb 2026
+- Dundee Candle Works, Soap Daze: no dated recent activity found

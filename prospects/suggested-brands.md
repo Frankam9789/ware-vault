@@ -49,14 +49,15 @@ Unclear (no confident match): Classic Candle Company (Active company is in Leigh
 | 2026-11-26 | Elstree Soaps | elstreesoaps.com | Vegan, palm-oil-free handmade soap (Hertfordshire). Last sign of life: Christmas markets 20-29 Nov 2026 |
 | 2026-11-26 (near-miss) | Kip Candle Co | kipcandleco.com | Capsule-range soy candles (Liverpool). Newest dated proof Mar 2026 |
 | 2026-11-26 (near-miss) | FuturePrimitive Soap Co | futureprimitivesoap.co.uk | Handmade soap, themed releases. Yule release 22 Nov (year unconfirmed) |
+| 2026-11-27 | Wick + Wonder | notonthehighstreet.com/wickandwonder | Handmade soy candles (Bristol). CH Active 12955140, confirmation statement 17 Sep 2026 |
+| 2026-11-27 | Neve's Bees | notonthehighstreet.com/nevesbees | Beeswax balms, salves, oils (Eynsham, Oxon). CH Active 15794252, CS 13 Jul 2026, B Corp Mar 2026. Range may be >30 |
+| 2026-11-27 | The Ilex Wood | theilexwood.com | Natural balms, salves, face care (Northants). CH Active 11443504, new parent company filed 7 Oct 2026 |
 
 ## Seen but not suggested yet (possible future picks)
 
-- Silk + Strand (NOTHS storefront), silk scrunchies, Derbyshire, few reviews so far
+- The Silk Collection (NOTHS), silk pillowcases/eye masks/scrunchies, London. CH Active 13097924 but newest filing Mar 2026 and no dated activity found
 - Fin Studio (studiofin.co.uk), handcrafted notebooks/planners, Hertfordshire home studio, almost no public reviews yet
 - Beauty Scents Candles (beautyscentscandles.co.uk), handmade candles/melts, Peterborough, ~198 reviews
-- The Ilex Wood (NOTHS), natural balms and serums, review count unknown
-- Clevedon-style candle makers on NOTHS: Embers and Roots, Wick and Wonder (not checked)
 
 ## Skipped (and why)
 
@@ -81,3 +82,9 @@ Unclear (no confident match): Classic Candle Company (Active company is in Leigh
 - Soap So Co: appears to be Canadian-made
 - RinkyDink Candles: only 4 Trustpilot reviews, newest dated Feb 2026
 - Dundee Candle Works, Soap Daze: no dated recent activity found
+- Embers & Roots (Wakefield): wide range (candles, diffusers, melts), no dated activity after 2024
+- BLOX Stationery: made in China, stocked by John Lewis, likely already has a warehouse
+- Scrunchies by Nat: one-person shop, low prices
+- Pawfect Pup (New Milton): CH Active but no dated activity found
+- Silk + Strand: old company dissolved; new SILK & STRAND LTD formed 27 Oct 2026 (Romsey), possibly a different business
+- Bone Shaker (dog care, Sheffield): couldn't find it trading

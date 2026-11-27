@@ -14,4 +14,7 @@ for q in "$@"; do
   prof=$(curl -s -m 20 "$BASE/company/$num" | tr '\n' ' ' | sed 's/<[^>]*>/ /g; s/  */ /g')
   echo "  first match $num (check the name really is this brand):"
   echo "$prof" | grep -oE '(Company status [A-Za-z]+( [a-z]+)?|Active proposal to strike off|[Oo]verdue|Next accounts made up to [^L]{0,50}|Nature of business \(SIC\) [0-9]+ - [^$]{0,60})' | sed 's/^/    /'
+  echo "  latest filings:"
+  curl -s -m 20 "$BASE/company/$num/filing-history" | tr '\n' ' ' | sed 's/<[^>]*>/ /g; s/  */ /g' \
+    | grep -oE '[0-9]{1,2} [A-Z][a-z]{2} 20[0-9]{2} [A-Z]{2,6}[0-9]* [^0-9]{5,60}' | head -3 | sed 's/^/    /'
 done

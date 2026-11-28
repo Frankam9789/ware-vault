@@ -16,6 +16,7 @@ Curator Natural Skincare, Lovendu, The Productivity Method, With Lyberty, Univer
 - The Stirling Candle Company: THE STIRLING CANDLE COMPANY LTD (SC759960), dissolved 17 Nov 2026
 - Skyn Bakery: SKYN BAKERY LTD (13050235), dissolved 25 Aug 2026
 - Grizzly Adam: GRIZZLY ADAM LTD (12671670), dissolved 14 May 2024
+- MR WUFFles (dog treats): MR WUFFLES LIMITED (14569319), dissolved 10 Nov 2026 via compulsory strike-off
 - Tegen Accessories (probably): TEGEN ACCESSORIES LTD (08086981, Blackpool), dissolved 2019; may now trade as a sole trader
 
 Companies House re-check of earlier picks (26 Nov), Active and the name/town match: SimpleyNatural (07583908), My Skin Feels (12351006), Ralph & Albert (14974787), Ease London (11533231), Worthy Wax (13108347), Kip Candle Co (13874711), Oceanjewel (14208322), BowCo (15297650, Liverpool).
@@ -52,12 +53,20 @@ Unclear (no confident match): Classic Candle Company (Active company is in Leigh
 | 2026-11-27 | Wick + Wonder | notonthehighstreet.com/wickandwonder | Handmade soy candles (Bristol). CH Active 12955140, confirmation statement 17 Sep 2026 |
 | 2026-11-27 | Neve's Bees | notonthehighstreet.com/nevesbees | Beeswax balms, salves, oils (Eynsham, Oxon). CH Active 15794252, CS 13 Jul 2026, B Corp Mar 2026. Range may be >30 |
 | 2026-11-27 | The Ilex Wood | theilexwood.com | Natural balms, salves, face care (Northants). CH Active 11443504, new parent company filed 7 Oct 2026 |
+| 2026-11-28 | Dook | dookofedinburgh.com | Handmade salt soap, bath salts (Edinburgh, own shop). CH Active SC617766, accounts filed 26 Aug 2026 |
+| 2026-11-28 | Wild Sage + Co | (Faire / Peace with the Wild) | Cold-process soaps, balms, shampoo/shaving soap, ~25 products (Hoarwithy, Herefordshire). CH Active 12617369, CS 25 May 2026 |
+| 2026-11-28 | SMUG | sleepsmug.com | Shower steamers, sleep masks, satin pillowcases (London). CH Active 16326315 (Are You Smug Ltd), accounts filed 23 Nov 2026 |
 
 ## Seen but not suggested yet (possible future picks)
 
 - The Silk Collection (NOTHS), silk pillowcases/eye masks/scrunchies, London. CH Active 13097924 but newest filing Mar 2026 and no dated activity found
 - Fin Studio (studiofin.co.uk), handcrafted notebooks/planners, Hertfordshire home studio, almost no public reviews yet
 - Beauty Scents Candles (beautyscentscandles.co.uk), handmade candles/melts, Peterborough, ~198 reviews
+
+- The Sussex Handmade Soap Company (Hastings, sussexsoap.co.uk): no company found (sole trader?), no dated 2026 activity yet
+- Trinkety Paws (Wellingborough): CH Active, CS 20 Oct 2026; BioThane dog collars/leads, range probably big (colours x sizes)
+- The Crafty Dog Co (Poole): CH Active, newest filing Apr 2026
+- Canine Capers Cheshire (Sandbach): CH Active, CS 25 Oct 2026; brand/range not checked
 
 ## Skipped (and why)
 
@@ -88,3 +97,7 @@ Unclear (no confident match): Classic Candle Company (Active company is in Leigh
 - Pawfect Pup (New Milton): CH Active but no dated activity found
 - Silk + Strand: old company dissolved; new SILK & STRAND LTD formed 27 Oct 2026 (Romsey), possibly a different business
 - Bone Shaker (dog care, Sheffield): couldn't find it trading
+- Lower Lodge Candles (Gateshead, since 2011): established firm, several directors leaving Nov 2026
+- Oh My Melt (Cheshire): 3.0 Trustpilot score, delivery complaints
+- Scents at No3: 2,300+ reviews, too big
+- Fair Cake Candles, Eye Candy Co: couldn't match to an active company
